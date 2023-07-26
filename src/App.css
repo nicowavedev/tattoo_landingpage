@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 30px;
+  background-color: black;
+  font-family: sans-serif Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*h1 {
+  max-width: 40px;
+  font-size: 1.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  justify-content: center;
+}*/
+
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+}
