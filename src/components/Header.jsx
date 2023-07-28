@@ -9,8 +9,13 @@ const styles = {
     padding: "10px 20px",
   },
   name: {
-    textAlign: "",
+    textAlign: "center",
     fontSize: "24px",
+  },
+  textoheader: {
+    textAlign: "center",
+    color: "white",
+    backgroundColor: "black",
   },
 };
 
@@ -20,18 +25,20 @@ function Header() {
       <div style={styles.header}>
         <h2 style={styles.name}>Jair alvarez</h2>
       </div>
-      <div>
-        <h1>geografia </h1>
-      </div>
-      <div>
-        <h1>de la memoria </h1>
-      </div>
+      <div style={styles.textoheader}>
+        <div>
+          <h1>geografia </h1>
+        </div>
+        <div>
+          <h1>de la memoria </h1>
+        </div>
 
-      <div>
-        <h1>en la piel</h1>
-      </div>
-      <div>
-        <h1> </h1>
+        <div>
+          <h1>en la piel</h1>
+        </div>
+        <div>
+          <h1> </h1>
+        </div>
       </div>
     </>
   );

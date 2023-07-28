@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../estilos/gallery.css";
+// import "../estilos/gallery.css";
 import CloseIcon from "@mui/icons-material/Close";
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";
@@ -9,6 +9,7 @@ import img5 from "../images/img5.jpg";
 import img6 from "../images/img6.jpg";
 import img7 from "../images/img7.jpg";
 import img8 from "../images/img8.jpg";
+import "../styles/gallery.css";
 
 const Gallery = () => {
   let data = [

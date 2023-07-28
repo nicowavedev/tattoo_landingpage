@@ -98,8 +98,7 @@ function Navbar() {
       <img src={Logo} alt="Logo" style={styles.logo} />
       <div style={styles.navItem}>Home</div>
       <div style={styles.navItem}>About</div>
-      <div style={styles.navItem}>Services</div>
-      <div style={styles.navItem}>Contact</div>
+      <div style={styles.navItem}>gallery</div>
     </div>
   );
 }
