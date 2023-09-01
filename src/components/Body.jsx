@@ -1,47 +1,3 @@
-/*import React from "react";
-
-const styles = {
-  container: {},
-
-  title: {
-    fontSize: "60px", // tamaño letra
-    textAlign: "center",
-  },
-
-  imgJair: {
-    width: "600px",
-    height: "600px",
-  },
-  inlinetext: {
-    display: "inline",
-    margin: 0,
-    padding: 0,
-    lineHeight: 1.5,
-  },
-};
-
-function Body() {
-  return (
-    <>
-      <div style={styles.container}>
-        <p style={styles.title}>La piel envuelve y encarna a la persona</p>
-      </div>
-      <div>
-        <div>
-          <span style={styles.inlinetext}>This is an inline paragraph.</span>
-        </div>
-        <img
-          style={styles.imgJair}
-          src={require("../images/IMG_jair1.jpg")}
-          alt="foto leon mano"
-        />
-      </div>
-    </>
-  );
-}
-
-export default Body;*/
-
 import React from "react";
 
 const styles = {
@@ -67,9 +23,13 @@ const styles = {
     display: "flex",
     justifyContent: "flex start",
     alignItems: "center",
+    color: "white",
   },
   textonumero1: {
     border: "30px solid black",
+    fontFamily: "lobster cursive",
+    fontSize: "50px",
+    regular: "400px",
   },
   fotoimagen2: {
     width: "40%",
@@ -79,6 +39,7 @@ const styles = {
     display: "flex",
     justifyContent: "flex start",
     alignItems: "center",
+    color: "white",
   },
   containernumero3: {
     display: "flex",
@@ -87,6 +48,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "space between",
     fontSize: "15px",
+    color: "white",
   },
 };
 
@@ -124,7 +86,7 @@ function Body() {
       <h1>Imperdiet moui id</h1>
 
       <div style={styles.containernumero3}>
-        <p>
+        {/* <p>
           On the other hand, we denounce with righteous indignation and dislike
           men who are so beguiled and demoralized by the charms of pleasure of
           the moment, so blinded by desire, that they cannot foresee the pain
@@ -137,7 +99,7 @@ function Body() {
           the moment, so blinded by desire, that they cannot foresee the pain
           and trouble that are bound to ensue; and equal blame belongs to those
           who fail in their duty through weakness of will, whic
-        </p>
+        </p> */}
       </div>
     </>
   );

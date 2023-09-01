@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 // pages
 import Home from "./home";
 import About from "./about";
+import Gallery from "../components/Gallery";
 
 // components
 
@@ -36,6 +37,10 @@ function router() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
+
+        {/* Add a new route for the gallery page */}
+        <Route path="/gallery" element={<Gallery />} />
+
         {/* <Route path="/LoqueQuiera" element={<About />} /> */}
 
         {/* <Route path="about" element={<About />} />

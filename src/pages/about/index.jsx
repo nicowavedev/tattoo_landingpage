@@ -1,12 +1,10 @@
-import Gallery from "../../components/Gallery";
+import About from "../../components/About";
 
-function About() {
+const AboutPage = () => {
   return (
     <div>
-      <div>
-        <Gallery />
-      </div>
+      <About />
     </div>
   );
-}
-export default About;
+};
+export default AboutPage;
