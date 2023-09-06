@@ -12,8 +12,9 @@ const styles = {
     marginBottom: "10px",
   },
   content: {
-    fontSize: "18px",
+    fontSize: "30px",
     lineHeight: "1.5",
+    fontFamily: "Amatic SC, Regular 400",
   },
 };
 

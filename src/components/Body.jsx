@@ -23,13 +23,14 @@ const styles = {
     display: "flex",
     justifyContent: "flex start",
     alignItems: "center",
-    color: "white",
+    color: "orange",
   },
   textonumero1: {
     border: "30px solid black",
-    fontFamily: "lobster cursive",
+    fontFamily: "cursive",
     fontSize: "50px",
     regular: "400px",
+    color: "#054342",
   },
   fotoimagen2: {
     width: "40%",
@@ -39,7 +40,7 @@ const styles = {
     display: "flex",
     justifyContent: "flex start",
     alignItems: "center",
-    color: "white",
+    color: "orange",
   },
   containernumero3: {
     display: "flex",
@@ -48,14 +49,17 @@ const styles = {
     alignItems: "center",
     justifyContent: "space between",
     fontSize: "15px",
-    color: "white",
+    color: "orange",
+  },
+  backgroundimage: {
+    backgroundImage: "paper.gif",
   },
 };
 
 function Body() {
   return (
     <>
-      <div>
+      <div style={styles.backgroundimage}>
         <img
           style={styles.imgJair}
           src={require("../images/img-perfiljair.jpeg")}
