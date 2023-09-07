@@ -29,7 +29,7 @@ function Navbar() {
         <Link to="/about">About</Link>
       </div>
       <div style={styles.navItem}>
-        <Link to="/gallery">Gallery</Link>
+        <Link to="/gallery">Art works</Link>
         {/* <Link to="/gallery" style={styles.font}>Gallery</Link> */}
       </div>
     </div>
