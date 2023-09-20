@@ -1,5 +1,5 @@
 import React from "react";
-import fondoprincipal from "../images/fondoprincipal.png";
+// import fondoprincipal from "../images/fondoprincipal.png";
 
 const styles = {
   container: {
