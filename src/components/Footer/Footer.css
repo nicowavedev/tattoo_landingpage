@@ -4,8 +4,9 @@
 
 .footer-clean {
   padding: 50px 0;
-  background-color: #fff;
-  color: #4b4c4d;
+  background-color: #140808;
+  color: #bbc5d0;
+  text-align: center;
 }
 
 .footer-clean h3 {
@@ -34,7 +35,7 @@
 }
 
 .footer-clean .item.social {
-  text-align: right;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -88,4 +89,12 @@
   opacity: 0.6;
 }
 
+.footer-empty {
+  background-color: aquamarine;
+}
+
 /* Credit to https://epicbootstrap.com/snippets/footer-with-columns */
+
+.col-lg-3 {
+  text-: center;
+}

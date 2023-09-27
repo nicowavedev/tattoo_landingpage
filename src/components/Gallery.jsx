@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "../estilos/gallery.css";
+//import "../estilos/gallery.css";
 import CloseIcon from "@mui/icons-material/Close";
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";

@@ -109,6 +109,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <div className="footer-empty">
+              <div>hshshshhs</div>
+            </div>
             <div className="col-lg-3 item social">
               <a href="#">
                 <i className="icon ion-social-facebook"></i>
