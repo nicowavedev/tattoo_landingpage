@@ -74,9 +74,9 @@ const Footer = () => {
                 <li>
                   <a href="#">Development</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">Hosting</a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="col-sm-4 col-md-3 item">
@@ -109,9 +109,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="footer-empty">
-              <div>hshshshhs</div>
-            </div>
+            <div className="footer-empty">{/* <div>hshshshhs</div> */}</div>
             <div className="col-lg-3 item social">
               <a href="#">
                 <i className="icon ion-social-facebook"></i>
@@ -125,7 +123,7 @@ const Footer = () => {
               <a href="#">
                 <i className="icon ion-social-instagram"></i>
               </a>
-              <p className="copyright">Company Name © 2018</p>
+              <p className="copyright">Company Name © 2023</p>
             </div>
           </div>
         </div>

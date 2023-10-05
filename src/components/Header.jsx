@@ -15,14 +15,15 @@ const styles = {
   },
   textoheader: {
     textAlign: "center",
-    color: "white",
+    color: "#708090",
     backgroundColor: "black",
+    fontFamily: "Amatic SC",
   },
 
-  imagendelfondo: {
-    color: "red",
-    textAlign: "center",
-  },
+  // textoheader: {
+  //   color: "red",
+  //   textAlign: "center",
+  // },
 };
 
 function Header() {
@@ -31,7 +32,7 @@ function Header() {
       <div style={styles.header}>
         <h3 style={styles.name}>Jair alvarez</h3>
       </div>
-      <div style={styles.imagendelfondo}>
+      <div style={styles.textoheader}>
         <div>
           <h1>geografia </h1>
         </div>

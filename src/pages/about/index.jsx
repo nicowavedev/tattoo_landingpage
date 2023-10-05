@@ -1,8 +1,10 @@
 import About from "../../components/About";
 
+import "./index.css";
+
 const AboutPage = () => {
   return (
-    <div>
+    <div className="about">
       <About />
     </div>
   );

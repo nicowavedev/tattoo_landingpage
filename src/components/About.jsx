@@ -4,7 +4,7 @@ const styles = {
   aboutContainer: {
     padding: "20px",
     textAlign: "center",
-    color: "gray",
+    color: "red",
   },
   heading: {
     fontSize: "24px",
@@ -14,7 +14,7 @@ const styles = {
   content: {
     fontSize: "30px",
     lineHeight: "1.5",
-    fontFamily: "Amatic SC, Regular 400",
+    fontFamily: "Amatic SC, cursive",
   },
 };
 

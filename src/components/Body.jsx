@@ -28,27 +28,28 @@ const styles = {
   },
   textonumero1: {
     border: "30px solid black",
-    fontFamily: "cursive",
     fontSize: "50px",
     regular: "400px",
     color: "#054342",
+    fontFamily: "Amatic SC, cursive",
   },
   fotoimagen2: {
     width: "40%",
     alignItems: "center",
   },
   containernumero2: {
+    fontSize: "50px",
     display: "flex",
     justifyContent: "flex start",
     alignItems: "center",
-    color: "orange",
+    color: "#7FFF00",
+    fontFamily: "Amatic SC, cursive",
   },
   containernumero3: {
     display: "flex",
     justifyContent: "flex start, ",
     border: "20px solid black",
     alignItems: "center",
-    justifyContent: "space between",
     fontSize: "15px",
     color: "orange",
   },
@@ -89,7 +90,7 @@ function Body() {
             alt="fote2"
           />
         </div>
-        <h1>Imperdiet moui id</h1>
+        {/* <h1>Imperdiet moui id</h1> */}
 
         <div style={styles.containernumero3}>
           {/* <p>

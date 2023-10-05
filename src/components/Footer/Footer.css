@@ -76,12 +76,6 @@
   }
 }
 
-@media (max-width: 767px) {
-  .footer-clean .item.social > a {
-    margin-top: 10px;
-  }
-}
-
 .footer-clean .copyright {
   margin-top: 14px;
   margin-bottom: 0;
@@ -98,3 +92,16 @@
 .col-lg-3 {
   text-: center;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+  
