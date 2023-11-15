@@ -10,7 +10,7 @@ const styles = {
   },
   name: {
     textAlign: "center",
-    fontSize: "24px",
+    fontSize: "90px",
     fontFamily: "Amatic SC",
   },
   textoheader: {
@@ -18,6 +18,7 @@ const styles = {
     color: "#708090",
     backgroundColor: "black",
     fontFamily: "Amatic SC",
+    fontSize: "40px",
   },
 
   // textoheader: {

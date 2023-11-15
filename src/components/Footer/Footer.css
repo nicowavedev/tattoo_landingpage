@@ -7,6 +7,9 @@
   background-color: #140808;
   color: #bbc5d0;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer-clean h3 {
@@ -103,5 +106,3 @@
     margin-top: 10px;
   }
 }
-
-  

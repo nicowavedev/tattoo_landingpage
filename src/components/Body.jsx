@@ -25,10 +25,11 @@ const styles = {
     justifyContent: "flex start",
     alignItems: "center",
     color: "orange",
+    fontSize: "50px",
   },
   textonumero1: {
     border: "30px solid black",
-    fontSize: "50px",
+    fontSize: "100px",
     regular: "400px",
     color: "#054342",
     fontFamily: "Amatic SC, cursive",
@@ -38,7 +39,7 @@ const styles = {
     alignItems: "center",
   },
   containernumero2: {
-    fontSize: "50px",
+    fontSize: "80px",
     display: "flex",
     justifyContent: "flex start",
     alignItems: "center",
@@ -50,7 +51,7 @@ const styles = {
     justifyContent: "flex start, ",
     border: "20px solid black",
     alignItems: "center",
-    fontSize: "15px",
+    fontSize: "100px",
     color: "orange",
   },
   backgroundimage: {
