@@ -7,12 +7,12 @@ const styles = {
     color: "red",
   },
   heading: {
-    fontSize: "24px",
+    fontSize: "40px",
     fontWeight: "bold",
     marginBottom: "10px",
   },
   content: {
-    fontSize: "30px",
+    fontSize: "50px",
     lineHeight: "1.5",
     fontFamily: "Amatic SC, cursive",
   },
